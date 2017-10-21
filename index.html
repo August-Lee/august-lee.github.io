@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <meta name=”viewport” content=”width=device-width, initial-scale=1, maximum-scale=1″>
+    <title>Document</title>
+
+</head>
+<body>
+<style id="css">
+
+</style>
+
+<div id="content" class="styleEditor ">
+
+</div>
+<div class="resumeEditor" id="resume">
+
+</div>
+<div style="display:none;" id="h">
+    *姓名：李佳男
+
+    *年龄：22岁
+
+    *毕业院校：唐山学院
+
+    *工作经历：北京师大明德科技有限公司
+               北京捷思比特信息科技有限公司
+
+    *工作状态:在职状态
+
+    *技能掌握：html5 css3 es6 bootstrap amazeui
+    angluarjs vuejs nodejs php
+
+    //希望有合适的公司看到联系我：
+    邮箱：15611120351@163.com
+    联系电话：15611120351
+
+    //谢谢观赏
+</div>
+<div style="display:none;" id="w">
+    /*
+    * 大家好，我是李佳男，
+    * 接下来让我写一份网页简历！
+    */
+
+    /* 首先给所有元素移除边距加上过渡效果 */
+    *{
+        padding:0;
+         margin:0;
+    }
+    * {
+         -webkit-transition: all .3s;
+         transition: all .3s;
+    }
+    /* 白色背景太单调了，我们来点背景 */
+    body{
+        color: rgb(222,222,222);
+        background: rgb(0,43,54);
+    }
+    /* 文字离边框太近了 */
+    .styleEditor {
+        padding: 5vh;
+         border: 1px solid #e4393c;
+         margin :5vh;
+         overflow: auto;
+        width: 45vw; height: 90vh;
+    }
+    /* 代码高亮 */
+    .styleEditor{
+        color: rgb(133,153,0);
+    }
+    /* 来点特效？ */
+    html{
+        -webkit-perspective: 1000px;
+         perspective: 1000px;
+    }
+    .styleEditor {
+         position: fixed; left: 0; top: 0;
+        -webkit-transition: none;
+        transition: none;
+        -webkit-transform: rotateY(10deg) translateZ(-100px) ;
+        transform: rotateY(10deg) translateZ(-100px) ;
+    }
+    /*旋转一下*/
+    @keyframes zhuan {
+    from {
+    transform: rotatey(0deg)
+    scale(1);
+    }
+    to {
+    transform: rotatey(360deg)
+    scale(1);
+    }
+    }
+    .styleEditor {
+    animation: zhuan 3s;
+    }
+    /* 接下来我给自己准备一个编辑器 */
+    .resumeEditor{
+    position: fixed; right: 0; top: 0;
+    padding: .5em; margin: .5em;
+    width: 45vw; height: 90vh;
+    border: 1px solid;
+    background: white; color: #222;
+    overflow: auto;
+    }
+    /*那么我要开始写了*/
+</div>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
