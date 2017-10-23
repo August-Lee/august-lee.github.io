@@ -4,13 +4,15 @@ var word = document.getElementById("w").innerHTML;
 var z = word.length;
 var word1 = document.getElementById("h").innerHTML;
 var p = word1.length;
-console.log(z);
+var i;
+console.log(z,index);
+
 function type() {
     document.getElementById("css").innerText = word.substring(0, index++);
     document.getElementById("content").innerText = word.substring(0, index++);
     if (index == z) {
         clearInterval(j);
-        var i = setInterval(type2, 100)
+        i = setInterval(type2, 20)
     } else {
         $(".styleEditor").scrollTop(100000)
     }
@@ -21,4 +23,4 @@ function type2() {
         clearInterval(i)
     }
 }
-var j = setInterval(type, 100);
+var j = setInterval(type, 10);
