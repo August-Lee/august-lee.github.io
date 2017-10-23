@@ -12,7 +12,7 @@ function type() {
     document.getElementById("content").innerText = word.substring(0, index++);
     if (index == z) {
         clearInterval(j);
-        i = setInterval(type2, 20)
+        i = setInterval(type2, 100)
     } else {
         $(".styleEditor").scrollTop(100000)
     }
@@ -23,4 +23,4 @@ function type2() {
         clearInterval(i)
     }
 }
-var j = setInterval(type, 10);
+var j = setInterval(type, 100);
