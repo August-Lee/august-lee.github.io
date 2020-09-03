@@ -1,0 +1,15 @@
+$(".nav-ul").on("mouseover","li",function(){
+  $(this).addClass("nav-active1");
+})
+$(".nav-ul").on("mouseout","li",function(){
+  $(this).removeClass("nav-active1");
+})
+$(".dropdown-menu").on("mouseover","li",function(){
+  $(this).addClass("nav-active1");
+})
+$(".dropdown-menu").on("mouseout","li",function(){
+  $(this).removeClass("nav-active1");
+})
+$(".dropdown-menu-left").click(function(){
+  $(".dropdown-menu").slideToggle();
+})

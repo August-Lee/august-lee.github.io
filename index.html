@@ -2,113 +2,177 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>助农为乐</title>
     <link rel="stylesheet" href="css/bootstrap.css"/>
-    <meta name=”viewport” content=”width=device-width, initial-scale=1, maximum-scale=1″>
-    <title>Document</title>
-
+    <link rel="stylesheet" href="css/animate.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="icon" href="img/bnumindlogo.jpg"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
 </head>
 <body>
-<style id="css">
-
-</style>
-
-<div id="content" class="styleEditor">
-
+<div id="head">
+    <div class="lf head-title">
+        <img src="img/logo.png" class="img-responsive"/>
+    </div>
+    <div class="rt head-contact">
+        <span>客服咨询电话：</span> <br/>
+        <i>18232556494</i>
+    </div>
+    <div class="rt" style="width: 7%;height:7%;"><img src="img/phone.jpg" alt="phone" class="img-responsive"/></div>
+    <div class="clear"></div>
 </div>
-<div class="resumeEditor" id="resume">
-
+<div class="nav">
+    <div class="container">
+        <div class="menu">
+            <a class="dropdown-menu-left col-xs-12">菜单<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <a href="index.html">
+                    <li class="nav-active">首页</li>
+                </a>
+                <a href="product.html">
+                    <li>产品详情</li>
+                </a>
+                <a href="contact.html">
+                    <li>联系我们</li>
+                </a>
+            </ul>
+        </div>
+        <ul class="row nav-ul">
+            <a href="index.html" class="col-xs-2">
+                <li class="nav-active">首页</li>
+            </a>
+            <a href="product.html" class="col-xs-2">
+                <li>产品详情</li>
+            </a>
+            <a href="contact.html" class="col-xs-2">
+                <li>联系我们</li>
+            </a>
+        </ul>
+    </div>
 </div>
-<div style="display:none;" id="h">
-    *姓名：李佳男
-
-    *年龄：22岁
-
-    *毕业院校：唐山学院
-
-    *工作经历：北京师大明德科技有限公司
-               北京捷思比特信息科技有限公司
-
-    *工作状态:在职状态
-
-    *技能掌握：html5 css3 es6 bootstrap amazeui
-    angluarjs vuejs nodejs php
-
-    //希望有合适的公司看到联系我：
-    邮箱：15611120351@163.com
-    联系电话：15611120351
-
-    //谢谢观赏
+<div id="show">
+    <div class="prev">
+        <img src="img/left.png" class="img-responsive lf" alt="图片出错"/>
+    </div>
+    <div class="next">
+        <img src="img/right.png" class="img-responsive rt" alt="图片出错"/>
+    </div>
+    <ul>
+        <!--<li ><img src="img/lunbo1.jpg" class="img-responsive" alt="图片出错"/></li>-->
+        <!--<li><img src="img/lunbo2.jpg" class="img-responsive" alt="图片出错"/></li>-->
+        <li class="active"><img src="img/lunbo.jpg" class="img-responsive" alt="图片出错"/></li>
+        <li><img src="img/lunbo1.jpg" class="img-responsive" alt="图片出错"/></li>
+    </ul>
 </div>
-<div style="display:none;" id="w">
-    /*
-    * 大家好，我是李佳男，
-    * 接下来让我来写一份网页简历！
-    */
+<div class="contactPhone">
+    <div class="animated">
+        在线咨询——联系电话：010-57514689 <br/>
+    </div>
+</div>
+<div class="introduction">
+    <div class="content">
+        <div class="ppjj">特色水果</div>
+        <span style="color: #FFC001">____________</span>
 
-    /* 首先给所有元素移除边距加上过渡效果 */
-    *{
-        padding:0;
-         margin:0;
-    }
-    * {
-         -webkit-transition: all .3s;
-         transition: all .3s;
-    }
-    /* 白色背景太单调了，我们来点背景 */
-    body{
-        color: rgb(222,222,222);
-        background: rgb(0,43,54);
-    }
-    /* 文字离边框太近了 */
-    .styleEditor {
-        padding: 5vh;
-         border: 1px solid #e4393c;
-         margin :5vh;
-         overflow: auto;
-        width: 45vw; height: 90vh;
-    }
-    /* 代码高亮 */
-    .styleEditor{
-        color: rgb(133,153,0);
-    }
-    /* 来点特效？ */
-    html{
-        -webkit-perspective: 1000px;
-         perspective: 1000px;
-    }
-    .styleEditor {
-         position: fixed; left: 0; top: 0;
-        -webkit-transition: none;
-        transition: none;
-        -webkit-transform: rotateY(10deg) translateZ(-100px) ;
-        transform: rotateY(10deg) translateZ(-100px) ;
-    }
-    /*旋转一下*/
-    @keyframes zhuan {
-    from {
-    transform: rotatey(0deg)
-    scale(1);
-    }
-    to {
-    transform: rotatey(360deg)
-    scale(1);
-    }
-    }
-    .styleEditor {
-    animation: zhuan 3s;
-    }
-    /* 接下来我给自己准备一个编辑器 */
-    .resumeEditor{
-    position: fixed; right: 0; top: 0;
-    padding: .5em; margin: .5em;
-    width: 45vw; height: 90vh;
-    border: 1px solid;
-    background: white; color: #222;
-    overflow: auto;
-    }
-    /*那么我要开始写了*/
+        <p>
+            “让更多农民有机会享受优质的教育资源”是我们的使命和奋斗目标。自2005年以来，通过帮助国内中小学英语课堂引进外籍教师，优化英语课堂教学模式，帮助学校构建特色的教学体系，外教中国网为上百万中小学生的英语学习注入了活力和希望。2012年成立“明德教育聘专专项资助基金”以来，免费为上百所中小学及县/市教育局免费派遣外籍教师，改善学校英语教学氛围。目前，继续接受各地教育局及中小学申报免费外教项目。
+        </p>
+
+        <div class="lf col-md-4 col-sm-6 col-xs-12 animated fadeInLeft">
+            <img src="img/apple.jpg" class="img-responsive"/>
+            <div style="margin: 2vh auto">特色苹果
+            </div>
+        </div>
+        <div class="lf col-md-4 col-sm-6 col-xs-12 animated fadeInUp">
+            <img src="img/li.jpg" class="img-responsive"/>
+            <div style="margin: 2vh auto">多汁水梨
+            </div>
+        </div>
+        <div class="lf col-md-4 col-sm-6 col-xs-12 animated fadeInRight">
+            <img src="img/hetao.jpg" class="img-responsive"/>
+            <div style="margin: 2vh auto">补脑核桃
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<div class="f1">
+    <img src="img/mihoutao.jpg" class="img-responsive"/>
+    <div style="width: 40%" class="animated rotateInUpRight f1div">
+        <p style="font-size:2vw;padding: 1vw;">专业种植，更懂农业</p> <br/>
+        <hr style="color: #fff; height: 0.5vw;"/>
+        <span class="middle" style="font-size: 1vw; color: #aaa">北京师大明德文化发展中心依托百年名校北京师范大学及首都优质的教育资源，更懂中小学学校、教师与学生的需求，不仅能够为学校聘请专业的外籍教师，对外籍教师进行岗前培训，绩效考核，效果评估等系统的管理。同时，每年还会定期组织学校的英语教师来北京师范大学进行培训，从根本上解决学校的英语教学质量问题。</span>
+    </div>
+</div>
+<div class="introduction">
+    <div class="content">
+        <div class="ppjj">惠农助农</div>
+        <span style="color: #FFC001">____________</span>
+
+        <p>
+            “让更多农民有机会享受优质的教育资源”是我们的使命和奋斗目标。自2005年以来，通过帮助国内中小学英语课堂引进外籍教师，优化英语课堂教学模式，帮助学校构建特色的教学体系，外教中国网为上百万中小学生的英语学习注入了活力和希望。2012年成立“明德教育聘专专项资助基金”以来，免费为上百所中小学及县/市教育局免费派遣外籍教师，改善学校英语教学氛围。目前，继续接受各地教育局及中小学申报免费外教项目。
+        </p>
+
+        <div class="lf col-md-4 col-sm-6 col-xs-12 animated fadeInLeft">
+            <img src="img/huinong.jpg" class="img-responsive"/>
+            <div style="margin: 2vh auto">无公害
+            </div>
+        </div>
+        <div class="lf col-md-4 col-sm-6 col-xs-12 animated fadeInUp">
+            <img src="img/huinong1.jpg" class="img-responsive"/>
+            <div style="margin: 2vh auto">水土肥沃
+            </div>
+        </div>
+        <div class="lf col-md-4 col-sm-6 col-xs-12 animated fadeInRight">
+            <img src="img/huinong2.jpg" class="img-responsive"/>
+            <div style="margin: 2vh auto">特色种植
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<div class="f1">
+    <img src="img/foot.jpg" class="img-responsive"/>
+    <div style="width: 40%" class="animated rotateInUpRight f1div">
+        <p style="font-size:2vw;padding: 1vw; color: #000;">专业种植，更懂农业</p> <br/>
+        <hr style="color: #fff; height: 0.5vw;"/>
+        <span class="middle" style="font-size: 1vw; color: #000">北京师大明德文化发展中心依托百年名校北京师范大学及首都优质的教育资源，更懂中小学学校、教师与学生的需求，不仅能够为学校聘请专业的外籍教师，对外籍教师进行岗前培训，绩效考核，效果评估等系统的管理。同时，每年还会定期组织学校的英语教师来北京师范大学进行培训，从根本上解决学校的英语教学质量问题。</span>
+    </div>
+</div>
+
+<div id="foot">
+    <div class="footer">
+<!--        <span>地理位置得天独厚<i> 特色水果美味多汁</i></span>-->
+        <ul>
+            <a href="index.html">
+                <li class="lf col-md-4 col-sm-6 col-xs-12">首页</li>
+            </a>
+            <a href="product.html">
+                <li class="lf col-md-4 col-sm-6 col-xs-12">产品介绍</li>
+            </a>
+            <a href="contact.html">
+                <li class="lf col-md-4 col-sm-6 col-xs-12">联系我们</li>
+            </a>
+            <div class="clear"></div>
+        </ul>
+        <hr style="color:#fff;height: 3px;"/>
+        <ol>
+            <li class="col-md-4 col-sm-6 col-xs-12"> 邮箱：852144793@qq.com  </li>
+            <li class="col-md-4 col-sm-6 col-xs-12"> 微信: 18232556494  </li>
+            <li class="col-md-4 col-sm-6 col-xs-12"> 地址：河北省秦皇岛市昌黎县团林乡</li>
+            <div class="clear"></div>
+        </ol>
+        <div style="margin:0 auto;padding: 2vh;">
+            TEL: 18252556494 , QQ: 852144793 <br/>
+            © CopyRight 2005-2020, Inc.All Rights Reserved.<br/>
+            版权所有@AUGUST-LEE
+        </div>
+    </div>
 </div>
 <script src="js/jquery-1.11.3.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/lunbo.js"></script>
+<script src="js/nav.js"></script>
 <script src="js/index.js"></script>
 </body>
 </html>
